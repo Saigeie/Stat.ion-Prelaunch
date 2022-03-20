@@ -10,6 +10,7 @@ import AOS from "aos";
 
 export default function Index() {
   useEffect(() => {
+    
     AOS.init();
     window.addEventListener("scroll", () => {
       const navbar = document.getElementById("navbar");
