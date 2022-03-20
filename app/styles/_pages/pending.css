@@ -1,0 +1,25 @@
+body {
+    background-color: var(--bg-black);
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 7rem;
+    background: var(--grad-bg-purple);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.header:hover {
+    letter-spacing: 1rem;
+}
