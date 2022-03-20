@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 export default function App() {
   useEffect(() => {
     const hostname = window.location.protocol
-    console.log(window.location.host);
-    if (hostname !== "https") {
+    console.log(window.location.host, hostname);
+    if (hostname !== "https:") {
       window.location.replace(`https://${window.location.host}`);
     }
   })
